@@ -1292,7 +1292,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libhidlbase",
                 "libfmq",
-                "vendor.mediatek.hardware.videotelephony@1.0",
+                "vendor.mediatek.hardware.videotelephony@1.0_vendor",
                 "libc",
                 "libutils",
                 "libcutils",
@@ -1361,10 +1361,6 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libhardware",
                 "libcameracustom",
-                "libcam.hal3a.v3.strobe",
-                "libmtkcam_modulehelper",
-                "libmtkcam_metadata",
-                "libmtkcam_metastore",
                 "libbinder",
                 "libbinder_ndk",
                 "libcamera_sendextdata",
@@ -1380,6 +1376,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3942,6 +3939,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcustomer_cameradata.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -6867,6 +6865,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libnvram.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libbase",
                 "liblog",
@@ -7265,7 +7264,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcommcenterfw",
                 "libdmtpclient",
-                "libprotobuf-cpp-full-3.9.1",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "vendor.oplus.hardware.communicationcenter-V1-ndk_platform",
                 "lib-virtual-modem-protos",
                 "libc++",
@@ -7488,6 +7487,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libsysenv.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "liblog",
                 "libbase",
                 "libc++",
@@ -7897,7 +7897,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhidlmemory",
                 "liblog",
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libutils",
                 "libc++",
                 "libc",
@@ -7927,7 +7927,7 @@ cc_prebuilt_library_shared {
                 "libcrypto",
                 "libhidlbase",
                 "liblog",
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libstagefright_foundation",
                 "libutils",
                 "libc++",
@@ -9840,6 +9840,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libcam.hal3a.ctrl.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libmtkcam_tuning_utils",
                 "libmtkcam_metadata",
                 "libmtkcam_metastore",
@@ -10195,6 +10196,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libcam.hal3a.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "lib3a.awbsync",
                 "lib3a.ae",
                 "libcam.halisp.TuningDataProvider",
@@ -10855,7 +10857,6 @@ cc_prebuilt_library_shared {
                 "libcustomer_cameradata",
                 "libcamera_metadata",
                 "libcustomer_ulog",
-                "libhwconfigurationutil",
                 "libc++",
                 "libc",
                 "libm",
@@ -10867,6 +10868,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "mt6895",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -17986,6 +17988,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libmtkcam_request_requlator.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "liblog",
                 "libmtkcam_ulog",
                 "libmtkcam_debugutils",
@@ -21296,7 +21299,6 @@ cc_prebuilt_library_shared {
                 "libstagefright_foundation",
                 "libui",
                 "libutils",
-                "libsink",
                 "libsource",
                 "libvcodec_cap",
                 "libimsma_rtp",
@@ -21849,7 +21851,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/lib-virtual-modem-protos.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -22006,7 +22008,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libdmtp-protos-lite.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -22037,7 +22039,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libbinder_ndk",
                 "libutils",
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libdmtp-protos-lite",
                 "libcommcenterfw",
                 "libc++",
@@ -23895,7 +23897,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libbase",
                 "libfmq",
-                "vendor.mediatek.hardware.videotelephony@1.0",
+                "vendor.mediatek.hardware.videotelephony@1.0_vendor",
                 "libhardware",
                 "libhwbinder",
                 "libhidlbase",
