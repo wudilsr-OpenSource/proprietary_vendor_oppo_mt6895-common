@@ -63,8 +63,8 @@
         <ctl name="ADDA_DL_CH3 ADDA_UL_CH1" value="1" />
         <ctl name="ADDA_DL_CH4 ADDA_UL_CH2" value="1" />
 
-        <ctl name="MISO0_MUX" value="UL1_CH2" />
-        <ctl name="MISO1_MUX" value="UL1_CH1" />
+        <ctl name="MISO0_MUX" value="UL1_CH1" />
+        <ctl name="MISO1_MUX" value="UL1_CH2" />
         <ctl name="ADC_L_Mux" value="Left Preamplifier" />
         <ctl name="PGA_L_Mux" value="AIN0" />
         <ctl name="ADC_R_Mux" value="Right Preamplifier" />
@@ -204,7 +204,7 @@
         <ctl name="I2S3_CH2 ADDA_UL_CH2" value="0" />
     </path>
     <path name="RefMic_SpeakerEn">
-        <ctl name="I2S3_CH1 ADDA_UL_CH1" value="1" />
+		<ctl name="I2S3_CH1 ADDA_UL_CH1" value="1" />
         <ctl name="I2S3_CH2 ADDA_UL_CH2" value="1" />
 
 
@@ -230,7 +230,7 @@
         <ctl name="I2S3_CH1 ADDA_UL_CH1" value="0" />
         <ctl name="I2S3_CH2 ADDA_UL_CH2" value="0" />
     </path>
-    <path name="AncMic_SpeakerEn">
+	    <path name="AncMic_SpeakerEn">
         <ctl name="I2S3_CH1 ADDA_UL_CH1" value="1" />
         <ctl name="I2S3_CH2 ADDA_UL_CH2" value="1" />
 	
@@ -304,8 +304,6 @@
         <ctl name="DAC In Mux" value="Normal Path" />
         <ctl name="HPL Mux" value="Audio Playback" />
         <ctl name="HPR Mux" value="Audio Playback" />
-        <ctl name="PGA1 Volume" value="3" />
-        <ctl name="PGA2 Volume" value="3" />
     </path>
 
     <path name="HpMic_HpDis">
@@ -315,8 +313,6 @@
         <ctl name="MISO1_MUX" value="UL1_CH2" />
         <ctl name="ADC_L_Mux" value="Idle" />
         <ctl name="PGA_L_Mux" value="None" />
-        <ctl name="PGA1 Volume" value="0" />
-        <ctl name="PGA2 Volume" value="0" />
 
         <ctl name="ADDA_DL_CH1 ADDA_UL_CH1" value="0" />
         <ctl name="ADDA_DL_CH2 ADDA_UL_CH2" value="0" />
@@ -428,7 +424,7 @@
         <ctl name="UL1_CH2 ADDA_UL_CH2" value="0" />
     </path>
     <path name="SingleMicTest_RefEn">
-        <ctl name="Audio_PGA1_Setting" value="18Db" />
+	    <ctl name="Audio_PGA1_Setting" value="18Db" />
         <ctl name="Audio_PGA2_Setting" value="18Db" />
 
         <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
@@ -440,7 +436,7 @@
         <ctl name="PGA_R_Mux" value="AIN0" />
     </path>
     <path name="SingleMicTest_RefDis">
-        <ctl name="MISO0_MUX" value="UL1_CH2" />
+	    <ctl name="MISO0_MUX" value="UL1_CH2" />
         <ctl name="ADC_R_Mux" value="Idle" />
         <ctl name="PGA_R_Mux" value="None" />
         <ctl name="UL_SRC_MUX" value="AMIC" />
@@ -524,8 +520,8 @@
         <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
         <ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
 
-        <ctl name="MISO0_MUX" value="UL1_CH1" />
-        <ctl name="MISO1_MUX" value="UL1_CH2" />
+        <ctl name="MISO0_MUX" value="UL1_CH2" />
+        <ctl name="MISO1_MUX" value="UL1_CH1" />
         <ctl name="ADC_L_Mux" value="Left Preamplifier" />
         <ctl name="PGA_L_Mux" value="AIN0" />
         <ctl name="ADC_R_Mux" value="Right Preamplifier" />

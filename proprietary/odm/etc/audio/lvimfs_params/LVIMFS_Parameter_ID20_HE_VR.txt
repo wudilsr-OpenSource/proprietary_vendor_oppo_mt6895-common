@@ -3604,7 +3604,7 @@
 0               // LVAC_LVMDRC_5Band_OutputCompressor_LimiterThreshold
 1               // LVAC_LVAC_Limiter_OperatingMode
 -1              // LVAC_LVAC_Limiter_LimiterThreshold
-12              // LVAC_LVAC_OutputGain_Gain
+2               // LVAC_LVAC_OutputGain_Gain
 64              // LVAC_LVAC_General_Mode
 27233           // LVAC_LVAC_General_Mode2
 20              // LVAC_LVAC_General_NumInitFrames

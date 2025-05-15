@@ -3,7 +3,7 @@
 	<CategoryTypeList>
 		<CategoryType name="Scene" feature_option="VIR_SCENE_CUSTOMIZATION_SUPPORT">
 			<Category name="Default" wording="Default"/>
-			<Category name="App1" wording="Application1" visible="true"/>
+			<Category name="App1" wording="Application1" visible="false"/>
 			<Category name="App2" wording="Application2" visible="false"/>
 		</CategoryType>
 		<CategoryType name="Volume type">
@@ -27,7 +27,7 @@
 			<Category name="Speaker"/>
 			<Category name="Headset+Speaker"/>
 			<Category name="USB"/>
-			<Category name="HEARING_AID" feature_option="MTK_BT_HEARING_AID_SUPPORT" visible="true"/>
+			<Category name="HEARING_AID" feature_option="MTK_BT_HEARING_AID_SUPPORT" visible="false"/>
 			<CategoryGroup name="BT A2DP">
 				<Category name="BT A2DP"/>
 				<Category name="BT A2DP HP"/>

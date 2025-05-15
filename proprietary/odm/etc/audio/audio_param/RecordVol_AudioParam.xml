@@ -85,11 +85,6 @@
     <Param path="Default,VR,USB" param_id="19"/>
     <Param path="Default,Camera recording,USB" param_id="14"/>
     <Param path="Default,VoicePerformance,USB" param_id="15"/>
-    <Param path="VOW_ENROLL,Unprocessed,Handset" param_id="20"/>
-    <Param path="VOW_ENROLL,Unprocessed,Headset" param_id="20"/>
-    <Param path="VOW_ENROLL,Unprocessed,USB" param_id="20"/>
-    <Param path="VOW_ENROLL,Unprocessed,HS5POLE" param_id="20"/>
-    <Param path="VOW_ENROLL,Unprocessed,HS5POLE_ANC" param_id="20"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -151,9 +146,6 @@
     </ParamUnit>
     <ParamUnit param_id="19">
       <Param name="ul_gain" value="0"/>
-    </ParamUnit>
-    <ParamUnit param_id="20">
-      <Param name="ul_gain" value="7"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>

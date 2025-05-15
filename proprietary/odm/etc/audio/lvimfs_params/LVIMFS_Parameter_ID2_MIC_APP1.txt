@@ -2375,11 +2375,11 @@
 40              // LVAC_LVAC_WNS_CutOffMinEnergyLevel
 100             // LVAC_LVAC_WNS_CutOffMaxEnergyLevel
 1               // LVAC_LVAC_NoiseSuppression_OperatingMode
--1              // LVAC_LVAC_NoiseSuppression_NoiseSuppression_NoiseSuppression_0
--1              // LVAC_LVAC_NoiseSuppression_NoiseSuppression_NoiseSuppression_1
-14745           // LVAC_LVAC_NoiseSuppression_NoiseThreshold
-0               // LVAC_LVAC_NoiseSuppression_SystemNoiseSuppression
-0               // LVAC_LVAC_NoiseSuppression_SystemNoiseOffset
+-3              // LVAC_LVAC_NoiseSuppression_NoiseSuppression_NoiseSuppression_0
+-3              // LVAC_LVAC_NoiseSuppression_NoiseSuppression_NoiseSuppression_1
+32767           // LVAC_LVAC_NoiseSuppression_NoiseThreshold
+-12             // LVAC_LVAC_NoiseSuppression_SystemNoiseSuppression
+12              // LVAC_LVAC_NoiseSuppression_SystemNoiseOffset
 -83             // LVAC_LVAC_NoiseSuppression_SystemNoiseProfile_0_SystemNoiseProfile_0_0
 -79             // LVAC_LVAC_NoiseSuppression_SystemNoiseProfile_0_SystemNoiseProfile_0_1
 -83             // LVAC_LVAC_NoiseSuppression_SystemNoiseProfile_0_SystemNoiseProfile_0_2

@@ -59,8 +59,10 @@
             "com.instagram.android",
             "com.facebook.katana"
         ],
-        "maxPreviewWidthForAPI1":2412,
-        "maxPreviewHeightForAPI1":2412,
+        "physicalSizeWidthCam0": 8.04,
+        "physicalSizeHeightCam0": 6.14,
+        "physicalSizeWidthCam1": 4.47,
+        "physicalSizeHeightCam1": 3.46,
         "limitSizeListForCts": [
             4000,
             3008,
@@ -142,7 +144,7 @@
             282
         ]
     },
-    "com.tencent.zebra": {
+        "com.tencent.zebra": {
         "feature_resolution_enable": true,
         "previewSizeForAPI1Width": 1920,
         "previewSizeForAPI1Height": 1080
@@ -171,6 +173,28 @@
         "feature_resolution_enable": true,
         "previewSizeForAPI1Height": 1080
     },
+    "com.happyelements.AndroidAnimal": {
+        "app_enable_rio": true,
+        "thirdPartyAppLimitPicture": true,
+        "checkToAddPreviewCallbackForAPI1": true,
+        "thirdPartyAppWidthLimitForCam1API1": 1280,
+        "thirdPartyAppHeightLimitForCam1API1": 720,
+        "resolutionFilterForNotAddSizeAPI1":[
+            "960x544",
+            "640x480",
+            "320x240",
+            "192x108",
+            "160x96"
+        ]
+    },
+    "im.kumu.ph": {
+        "maxPreviewWidthForAPI1": 1920,
+        "maxPreviewHeightForAPI1": 1080
+    },
+    "com.pinterest": {
+        "maxPreviewWidthForAPI1": 2280,
+        "maxPreviewHeightForAPI1": 1080
+    },
     "tv.danmaku.bili": {
         "feature_resolution_enable": true,
         "previewSizeForAPI1Width": 1920,
@@ -181,15 +205,24 @@
         "previewSizeForAPI1Width": 1920,
         "previewSizeForAPI1Height": 1080
     },
-    "com.happyelements.AndroidAnimal": {
-        "feature_resolution_enable": true,
-        "previewSizeForAPI1Width": 2100,
-        "previewSizeForAPI1Height": 1200
-    },
     "com.eg.android.AlipayGphone": {
-        "resolutionFilterForNotAddSizeAPI1": [
-            "960x544"
+        "feature_resolution_enable": true,
+        "resolutionFilterForNotAddSizeAPI1":[
+            "1200x540"
         ]
+    },
+    "com.meitu.meiyancamera": {
+        "feature_resolution_enable": true,
+        "resolutionFilterForNotAddSizeAPI2":[
+            "960x544"
+        ],
+        "maxPreviewWidthForAPI2": 4096,
+        "maxPreviewHeightForAPI2": 3072
+    },
+    "com.jingdong.app.mall": {
+        "feature_resolution_enable": true,
+        "previewSizeForAPI1Width": 1280,
+        "previewSizeForAPI1Height": 720
     },
     "com.instagram.android": {
         "checkToAddPreviewCallbackForAPI1": true
@@ -246,6 +279,13 @@
     "android": {
         "isFreeDomEvictionPackge": true
     },
+
+    "com.tencent.mm": {
+        "app_disable_fb_activity": [
+            "com.tencent.mm.plugin.recordvideo.activity.MMRecordUI"
+        ]
+    },
+
     "android.camera.cts": {
         "resolutionFilterForNotAddSizeAPI1": [
             "4608x3456",
@@ -268,6 +308,7 @@
             "3264x1840",
             "3264x1632",
             "3216x1440",
+            "2912x1344",
             "2752x2064",
             "2688x1512",
             "2592x1940",
@@ -280,24 +321,28 @@
             "2376x1080",
             "2304x1728",
             "2304x1296",
+            "2288x1024",
+            "2280x1080",
+            "2240x1008",
+            "1920x1008",
             "1920x1440",
+            "1920x1072",
             "1920x864",
             "1920x860",
+            "1872x864",
             "1608x720",
             "1600x800",
             "1600x720",
+            "1584x720",
+            "1520x720",
+            "1440x1088",
             "1206x540",
             "1204x768",
+            "1200x540",
+            "1152x720",
             "864x480",
             "804x360"
         ]
-    },
-    "com.tencent.wework.multitalk.controller.VoipCallActivity": {
-        "minVideoCallFps": 15,
-        "maxVideoCallFps": 15
-    },
-    "com.ss.android.ugc.aweme.live.LiveBroadcastActivity": {
-        "minVideoCallFps": 15,
-        "maxVideoCallFps": 15
     }
 }
+

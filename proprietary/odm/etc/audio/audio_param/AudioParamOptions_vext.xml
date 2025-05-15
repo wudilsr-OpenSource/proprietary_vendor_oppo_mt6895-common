@@ -44,18 +44,17 @@
  <Param name="MTK_A2DP_OFFLOAD_SUPPORT" value="yes" />
  <Param name="MTK_TTY_SUPPORT" value="" />
  <Param name="MTK_AUDIO_A2DP_LATENCY_IMPROVE" value="yes" />
- <Param name="MTK_BT_HEARING_AID_SUPPORT" value="yes" />
+ <Param name="MTK_BT_HEARING_AID_SUPPORT" value="" />
  <Param name="MTK_SPK_AP_SWMIX_PROCESS" value="" />
  <Param name="MTK_AUDIODSP_SUPPORT" value="yes" />
  <Param name="MTK_INCALL_HANDSFREE_DMNR" value="no" />
  <Param name="MTK_VOW_SUPPORT" value="yes" />
- <Param name="MTK_VOW_AMAZON_SUPPORT" value="yes" />
+ <Param name="MTK_VOW_AMAZON_SUPPORT" value="no" />
  <Param name="MTK_VOW_GVA_SUPPORT" value="yes" />
  <Param name="MTK_VOW_DUAL_MIC_SUPPORT" value="yes" />
- <Param name="MTK_VOW_MAX_PDK_NUMBER" value="0" />
- <Param name="MTK_VOW_BARGE_IN_SUPPORT" value="yes" />
  <Param name="MTK_VOW_COMMAND" value="keyword03" />
- <Param name="MTK_VOW_NORMAL_RECORD_ENROLL" value="yes" />
+ <Param name="MTK_VOW_BARGE_IN_SUPPORT" value="yes" />
+ <Param name="MTK_VOW_MAX_PDK_NUMBER" value="0" />
  <Param name="MTK_VOW_MULTI_KEYPHRASE_SUPPORT" value="" />
  <Param name="MTK_VOW_SINGLE_MIC_SELECT" value="" />
  <Param name="MTK_VOW_RECORD_CONCURRENT" value="" />

@@ -6,7 +6,6 @@
 			<Category name="App1"/>
 			<Category name="App2"/>
 			<Category name="HDR_RECORD"/>
-			<Category name="VOW_ENROLL"/>
 		</CategoryType>
 		<CategoryType name="Application">
 			<!-- tunable -->
